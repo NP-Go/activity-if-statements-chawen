@@ -3,19 +3,23 @@ package main
 import "fmt"
 
 func main() {
-	number1 := 17
-	number2 := 24
-	resultMessage := "No outcome."
+	number1 := 11
+	number2 := 11
+	//resultMessage := "No outcome."
 	//Insert your code here
-	fmt.Println(resultMessage)
-	fmt.Println(number1)
-	fmt.Println(number2)
+	// fmt.Println(resultMessage)
+	// fmt.Println(number1)
+	// fmt.Println(number2)
 	//Hint: You may wish to make use of strconv.Itoa to convert int to string
 
 	if number1 == number2 {
-		fmt.Println("17 and 24")
+		fmt.Println("11 equal")
 	} else {
 		fmt.Println("Not equal")
 	}
+
+	// if number1 < 0 {
+	// 	fmt.Println("Negative")
+	// }
 
 }
